@@ -1,7 +1,8 @@
 name: SSH and List Files
 
 on:
-  workflow_dispatch:
+  push:
+    branches: [ main ]
 
 jobs:
   ssh_ls:
